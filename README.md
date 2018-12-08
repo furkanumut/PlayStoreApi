@@ -2,7 +2,7 @@ PlayStoreApi
 ====================
 Gayri Resmi play store api, isteyen istediği gibi kullanabilir, geliştirebilir ve ya bir sıkıntı yaşadığınızda bana ulaşabilirsiniz.
 
-Unofficial play store api, you can use it as you wish, you can develop and you can reach me when you experience a hardship.
+Unofficial play store api, you can use it as you wish, you can develop and you can reach me if you face any problem.
 
 Kullanımı/Use Of
 ====================
