@@ -16,7 +16,6 @@ $playstore=new PlayStoreApi;
 //Ücretsiz populer uygulamalar
 print_r($playstore->free_app());
 
-
 //Ücretsiz güncel uygulamalar
 print_r($playstore->newfree_app());
 
