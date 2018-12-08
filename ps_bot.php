@@ -1,9 +1,9 @@
 <?php 
 /**
  * Class 		Play Store Api
- * @category	PHP Data Bot
+ * @category		PHP Data Bot
  * @author		Furkan Umut Ceylan
- * @license 	https://www.gnu.org/licenses/gpl.txt  GPL License 3
+ * @license 		https://www.gnu.org/licenses/gpl.txt  GPL License 3
  * @mail 		facfur3@gmail.com
  * @date 		08.12.2018
  */
