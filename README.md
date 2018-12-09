@@ -9,33 +9,33 @@ Kullanımı/Use Of
 ```php
 <?php 
 
-//zorunlu alan
+//zorunlu alan | required field
 require_once "ps_bot.php";
 $playstore=new PlayStoreApi;
 
-//Ücretsiz populer uygulamalar
+//Ücretsiz populer uygulamalar | Free populer apps
 print_r($playstore->free_app());
 
-//Ücretsiz güncel uygulamalar
+//Ücretsiz güncel uygulamalar | New updated apps
 print_r($playstore->newfree_app());
 
-//Ücretsiz populer oyunlar
+//Ücretsiz populer oyunlar | Free populer games
 print_r($playstore->free_game());
 
-//Ücretsiz en çok ziyaret edilen uygulamalar
+//Ücretsiz en çok ziyaret edilen uygulamalar | Free most visited apps
 print_r($playstore->gross());
 
-//Trend uygulamalar
+//Trend uygulamalar | Trend applications
 print_r($playstore->trend());
 
-//Kategorileri Şisteleme
+//Kategorileri listeleme | Category List
 print_r($playstore->listcategory());
 
-//Bir kategorideki en populer uygulamalar
+//Bir kategorideki en populer uygulamalar | Most popular applications in category
 print_r($playstore->category("FAMILY_ACTION"));
 
-//Arama Yapmak İçin
+//Arama Yapmak İçin | For Search
 print_r($playstore->search("Pubg Mobile"));
 
-//Uygulama detaylarını çekme
+//Uygulama detaylarını çekme | Application details
 print_r($playstore->detail("com.termux"));
